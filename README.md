@@ -45,11 +45,3 @@ Preliminary note: Cells should be run sequentially from top to bottom as the lat
 * Run cell: `Shift + Enter`
 
 To edit a markdown cell (if not in editing mode already): `double-click on it`
-
-
-## IV. Running a Jupyter Notebook presentation [Optional]
-There is a neat way to create presentation from Jupyter notebooks:
-
-1. In a Jupyter notebook, navigate `View ▶ Cell Toolbar ▶ Slideshow`
-2. Then render it with: `jupyter-nbconvert --to slides name-of-your-presentation.ipynb --reveal-prefix=reveal.js --post serve`
-
