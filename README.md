@@ -45,3 +45,7 @@ Preliminary note: Cells should be run sequentially from top to bottom as the lat
 * Run cell: `Shift + Enter`
 
 To edit a markdown cell (if not in editing mode already): `double-click on it`
+
+## IV. Learning track
+Monday morning's (Jan. 28th, 2019) presentation is available here: 
+
