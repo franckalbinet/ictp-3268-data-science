@@ -55,6 +55,9 @@ As regards, afternoon's hands-on session, the following learning track is propos
 * **Step 2 [Optional]**: In case you need a Python primer for Data Science, you will find one [here](./hands-on-sessions/notebooks/0-python-language-essentials-for-data-science.ipynb);
 * **Step 3**: Execute, modify and expand this [notebook](./hands-on-sessions/notebooks/2-time-series-visualization-python.ipynb) on Time Series Visualization;
 * **Step 4 [Optional]**: Execute, modify and expand this [notebook](./hands-on-sessions/notebooks/3-mapping-buoys.ipynb) to learn how to map geographical data and visualize RSSI embedded on Buoys drifting in the Gulf of Trieste;
-* **Step 5**: Fetch time series data of your nodes through the MQTT channel, visualize them and set up a quick and dirty anomaly detection;
+* **Step 5**: Fetch time series data of your nodes through the MQTT channel, visualize them and set up a quick and dirty anomaly detection.
+
+https://playground.tensorflow.org/
+
 * **Step 6 [Optional / Pro.]**: Access F. Chollet notebook on [Time Series Forecasting using Deep Learning techniques](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/6.3-advanced-usage-of-recurrent-neural-networks.ipynb), set up a dedicated conda environment, execute and try to get the general idea. 
 
