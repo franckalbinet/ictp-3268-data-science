@@ -4,19 +4,30 @@ This repository contains teaching material used and developed for [Workshop on R
 
 
 ## Setting up Miniconda for hands-on sessions
-Miniconda can be downloaded here: https://conda.io/en/latest/miniconda.html
+Miniconda can be downloaded here: https://conda.io/en/latest/miniconda.html (Python 3.7 version).
 
 Miniconda comes with a very useful command line tool to manage isolate environments and install package. The "Conda cheatsheet" should cover most of your needs https://conda.io/projects/continuumio-conda/en/latest/_downloads/1f5ecf5a87b1c1a8aaf5a7ab8a7a0ff7/conda-cheatsheet.pdf
 
-Once miniconda installed, open a terminal/console/...:
+### The easy way
+Once Miniconda installed, open a terminal:
 
-1. List available environments: `conda env list` (you should have only the 'base' environment)
+1. List available environments: `conda env list`
+2. Create a new virtual environment named "ictp-3268": `conda create --name ictp-3268`
+
+
 2. Install jupyter-notebook: `conda install jupyter`
 3. Create a new isolated environment, actually cloning the base one: `conda create --name datascience-base --clone base`
 4. Activate the newly created environment: `source activate datascience-base` (`source` only required for macosx - tbc)
 5. Install required packages: `conda install pandas numpy matplotlib`
 
-## [Optional]Running a Jupyter Notebook presentation
+### Doing it from scratch [Optional]
+Once Miniconda installed, open a terminal:
+
+1. List available environments: `conda env list`
+2. Create a new virtual environment named "ictp-3268": `conda create --name ictp-3268`
+3. Activate the newly created environment: `source activate datascience-base` (`source` only required for macOS & Linux)
+
+## Running a Jupyter Notebook presentation [Optional]
 There is a neat way to create presentation from Jupyter notebooks:
 
 1. In a Jupyter notebook, navigate `View ▶ Cell Toolbar ▶ Slideshow`
