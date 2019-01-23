@@ -25,8 +25,11 @@ Once Miniconda installed, open a terminal:
 Once Miniconda installed, open a terminal:
 
 1. List available environments: `conda env list`
+2. Install "Jupyter notebook" globally: `conda install jupyter`
 2. Create a new virtual environment named "ictp-3268": `conda create --name ictp-3268`
-3. Activate the newly created environment: `source activate datascience-base` (`source` only required for macOS & Linux)
+3. Activate the newly created environment: `source activate ictp-3268` (`source` only required for macOS & Linux)
+4. Make virtual env. visible/switchable from Jupyter notebook: `conda install nb_conda`
+
 
 ## II. Running a Jupyter Notebook presentation [Optional]
 There is a neat way to create presentation from Jupyter notebooks:
