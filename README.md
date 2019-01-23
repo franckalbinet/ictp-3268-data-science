@@ -12,12 +12,8 @@ Miniconda comes with a very useful command line tool to manage isolate environme
 ### I.1 The easy way
 Once Miniconda installed, open a terminal:
 
-1. List available environments: `conda env list`
-2. Create a new virtual environment named "ictp-3268": `conda create --name ictp-3268`
-2. Install jupyter-notebook: `conda install jupyter`
-3. Create a new isolated environment, actually cloning the base one: `conda create --name datascience-base --clone base`
-4. Activate the newly created environment: `source activate datascience-base` (`source` only required for macosx - tbc)
-5. Install required packages: `conda install pandas numpy matplotlib`
+1. Load already created virtual environment: `conda env create -f ictp-3268.yml`
+2. Activate the newly created environment: `source activate ictp-3268` (`source` only required for macOS & Linux)
 
 ### I.2 Doing it from scratch [Optional]
 Once Miniconda installed, open a terminal:
@@ -29,7 +25,7 @@ Once Miniconda installed, open a terminal:
 4. Make virtual env. visible/switchable from Jupyter notebook: `conda install nb_conda`
 5. Install required packages: `conda install pandas numpy matplotlib scipy`
 6. Save current environment to a file: `conda env export > ictp-3268.yml`
-7. Then to load an environment from that file (a.k.a "The easy way"): `conda env create -f ictp-3268.yml` (This is particularly convenient to make your data science pipeline reproducible).
+7. Then to load an environment from that file a.k.a "The easy way": `conda env create -f ictp-3268.yml` (This is particularly convenient to make your data science pipeline reproducible).
 
 
 ## II. Running a Jupyter Notebook presentation [Optional]
