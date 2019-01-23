@@ -58,7 +58,8 @@ As regards, afternoon's hands-on session, the following learning track is propos
 * **Step 5**: Fetch time series data of your nodes through the MQTT channel, visualize them and set up a quick & dirty anomaly detection system.
 * **Step 6**: Report your findings (by group), lessons learnt.
 
-ADVANCED [OPTIONAL]
-___
-* **[Optional / Pro.]**: Access F. Chollet notebook on [Time Series Forecasting using Deep Learning techniques](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/6.3-advanced-usage-of-recurrent-neural-networks.ipynb), set up a dedicated conda environment, execute and try to get the general idea. 
+&#9658; **ADVANCED [OPTIONAL]**
+
+* **Access F. Chollet notebook** on [Time Series Forecasting using Deep Learning techniques](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/6.3-advanced-usage-of-recurrent-neural-networks.ipynb), set up a dedicated conda environment, execute and try to get the general idea;
+* **Access “Prophet, Facebook" time series forecast homepage** https://facebook.github.io/prophet/ and associated Github repository https://github.com/facebook/prophet/tree/master/notebooks, set up a dedicated conda environment, execute and try to get the general idea.
 
