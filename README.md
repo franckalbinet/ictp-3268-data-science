@@ -4,22 +4,20 @@ This repository contains teaching material used and developed for **Workshop on 
 
 ![Poster](lectures/img/poster.png)
 
-## I. Setup
-
-### I.1 Setting up Miniconda for hands-on sessions
+## I. Setting up Miniconda and your virtual environment
 Miniconda can be downloaded here: https://conda.io/en/latest/miniconda.html (Python 3.7 version).
 
 Miniconda comes with a very useful command line tool to manage isolate environments and install package. "Conda cheatsheets" are available and will cover most of your daily needs:
 - https://conda.io/projects/continuumio-conda/en/latest/_downloads/1f5ecf5a87b1c1a8aaf5a7ab8a7a0ff7/conda-cheatsheet.pdf
 - https://kapeli.com/cheat_sheets/Conda.docset/Contents/Resources/Documents/index
 
-* **The easy way**
+### 1. The easy way
 Once Miniconda installed, open a terminal:
 
 1. Load already created virtual environment: `conda env create -f ictp-3268.yml`
 2. Activate the newly created environment: `source activate ictp-3268` (`source` only required for macOS & Linux)
 
-* **Doing it from scratch [Optional]**
+### 2. Doing it from scratch [Optional]
 Once Miniconda installed, open a terminal:
 
 1. List available environments: `conda env list`
@@ -32,12 +30,14 @@ Once Miniconda installed, open a terminal:
 7. Then to load an environment from that file a.k.a "The easy way": `conda env create -f ictp-3268.yml` (This is particularly convenient to make your data science pipeline reproducible).
 
 ## II. Launching Jupyter Notebook with created virtual environment
-
 1. In a terminal (with "ictp-3268" not activate), launch Jupyter Notebook: `jupyter-notebook``
 2. Once Jupyter Notebook fires up in your browser, select (click on) a notebook of interest (.ipynb extensions) and;
 3. Switch to the kernel created for your virtual environment of interest (in our case "ictp-3268") by selecting on Notebook's top menu `Kernel` &#9658; `Change kernel` &#9658; `ictp-3268` 
 
-## II. Running a Jupyter Notebook presentation [Optional]
+## III. Useful Jupyter notebook keyboard shorcuts
+
+
+## IV. Running a Jupyter Notebook presentation [Optional]
 There is a neat way to create presentation from Jupyter notebooks:
 
 1. In a Jupyter notebook, navigate `View ▶ Cell Toolbar ▶ Slideshow`
