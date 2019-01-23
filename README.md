@@ -52,5 +52,5 @@ Monday morning's (Jan. 28th, 2019) presentation/lecture is available [here](./le
 As regards, afternoon's hands-on session, the following learning track is proposed:
 
 * **Step 1**: setup up your working environment (see above)
-* **Step 2**: A Python primer for Data Science is availble (here): [Python primer for Data Science](./hands-on-sessions/notebooks/0-python-language-essentials-for-data-science.ipynb)
+* **Step 2 [Optional]**: In case you need a Python primer for Data Science, you will find one [here](./hands-on-sessions/notebooks/0-python-language-essentials-for-data-science.ipynb)
 
