@@ -59,6 +59,6 @@ As regards, afternoon's hands-on session, the following learning track is propos
 * **Step 6**: Report your findings (by group), lessons learnt.
 
 ADVANCED [OPTIONAL]
-__
+___
 * **[Optional / Pro.]**: Access F. Chollet notebook on [Time Series Forecasting using Deep Learning techniques](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/6.3-advanced-usage-of-recurrent-neural-networks.ipynb), set up a dedicated conda environment, execute and try to get the general idea. 
 
