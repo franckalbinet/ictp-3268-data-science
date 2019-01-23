@@ -28,6 +28,8 @@ Once Miniconda installed, open a terminal:
 3. Activate the newly created environment: `source activate ictp-3268` (`source` only required for macOS & Linux)
 4. Make virtual env. visible/switchable from Jupyter notebook: `conda install nb_conda`
 5. Install required packages: `conda install pandas numpy matplotlib scipy`
+6. Save current environment to a file: `conda env export > ictp-3268.yml`
+7. Then to load an environment from that file (a.k.a "The easy way"): `conda env create -f ictp-3268.yml` (This is particularly convenient to make your data science pipeline reproducible).
 
 
 ## II. Running a Jupyter Notebook presentation [Optional]
