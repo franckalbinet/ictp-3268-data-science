@@ -7,7 +7,9 @@ This repository contains teaching material used and developed for **Workshop on 
 ## I. Setting up Miniconda for hands-on sessions
 Miniconda can be downloaded here: https://conda.io/en/latest/miniconda.html (Python 3.7 version).
 
-Miniconda comes with a very useful command line tool to manage isolate environments and install package. The "Conda cheatsheet" should cover most of your needs https://conda.io/projects/continuumio-conda/en/latest/_downloads/1f5ecf5a87b1c1a8aaf5a7ab8a7a0ff7/conda-cheatsheet.pdf
+Miniconda comes with a very useful command line tool to manage isolate environments and install package. "Conda cheatsheets" are available and will cover most of your daily needs:
+- https://conda.io/projects/continuumio-conda/en/latest/_downloads/1f5ecf5a87b1c1a8aaf5a7ab8a7a0ff7/conda-cheatsheet.pdf
+- https://kapeli.com/cheat_sheets/Conda.docset/Contents/Resources/Documents/index
 
 ### I.1 The easy way
 Once Miniconda installed, open a terminal:
