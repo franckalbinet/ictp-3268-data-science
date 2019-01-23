@@ -35,6 +35,16 @@ Once Miniconda installed, open a terminal:
 3. Switch to the kernel created for your virtual environment of interest (in our case "ictp-3268") by selecting on Notebook's top menu `Kernel` &#9658; `Change kernel` &#9658; `ictp-3268` 
 
 ## III. Useful Jupyter notebook keyboard shorcuts
+Preliminary note: Cells should be run sequentially from top to bottom as the latter would rely on the former.
+
+* Create cell (after current one): `Esc + b`
+* Create cell (before current one): `Esc + a`
+* Switch from code cell to markdown cell: `Esc + m`
+* Switch from markdown cell to code cell: `Esc + y`
+* Delete cell: `Esc + x`
+* Run cell: `Shift + Enter`
+
+To edit a markdown cell (if not in editing mode already): `double-click on it`
 
 
 ## IV. Running a Jupyter Notebook presentation [Optional]
