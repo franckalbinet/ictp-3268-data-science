@@ -6,7 +6,7 @@ This repository contains teaching material used and developed for [Workshop on R
 ## Setting up Miniconda for hands-on sessions
 Miniconda can be downloaded here: https://conda.io/en/latest/miniconda.html
 
-Miniconda comes with a very useful command line tool to manage isolate environments and install package. The "CONDA CHEAT SHEET" should cover most of your needs https://conda.io/projects/continuumio-conda/en/latest/_downloads/1f5ecf5a87b1c1a8aaf5a7ab8a7a0ff7/conda-cheatsheet.pdf
+Miniconda comes with a very useful command line tool to manage isolate environments and install package. The "Conda cheatsheet" should cover most of your needs https://conda.io/projects/continuumio-conda/en/latest/_downloads/1f5ecf5a87b1c1a8aaf5a7ab8a7a0ff7/conda-cheatsheet.pdf
 
 Once miniconda installed, open a terminal/console/...:
 
