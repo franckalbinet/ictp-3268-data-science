@@ -47,5 +47,9 @@ Preliminary note: Cells should be run sequentially from top to bottom as the lat
 To edit a markdown cell (if not in editing mode already): `double-click on it`
 
 ## IV. Learning track
-Monday morning's (Jan. 28th, 2019) presentation is available [here](./lectures) 
+Monday morning's (Jan. 28th, 2019) presentation/lecture is available [here](./lectures). 
+
+As regards, Afternoon's hands-on session, the following learning track is proposed:
+
+TBD
 
