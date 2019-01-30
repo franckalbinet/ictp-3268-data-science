@@ -21,11 +21,11 @@ Once Miniconda installed, open a terminal:
 Once Miniconda installed, open a terminal:
 
 1. List available environments: `conda env list`
-2. Install "Jupyter notebook" globally: `conda install jupyter`
 2. Create a new virtual environment named "ictp-3268": `conda create --name ictp-3268`
 3. Activate the newly created environment: `source activate ictp-3268` (`source` only required for macOS & Linux)
-4. Make virtual env. visible/switchable from Jupyter notebook: `conda install nb_conda`
+4. Make virtual env. visible/switchable from Jupyter notebook: `conda install jupyter`
 5. Install required packages: `conda install pandas numpy matplotlib scipy`
+[Optional]
 6. Save current environment to a file: `conda env export > ictp-3268.yml`
 7. Then to load an environment from that file a.k.a "The easy way": `conda env create -f ictp-3268.yml` (This is particularly convenient to make your data science pipeline reproducible).
 
@@ -54,7 +54,7 @@ As regards, afternoon's hands-on session, the following learning track is propos
 * **Step 1**: setup up your working environment (see above);
 * **Step 2 [Optional]**: In case you need a Python primer for Data Science, you will find one [here](./hands-on-sessions/notebooks/0-python-language-essentials-for-data-science.ipynb);
 * **Step 3**: Execute, modify and expand this [notebook](./hands-on-sessions/notebooks/2-time-series-visualization-python.ipynb) on Time Series Visualization;
-* **Step 4 [Optional]**: Execute, modify and expand this [notebook](./hands-on-sessions/notebooks/3-mapping-buoys.ipynb) to learn how to map geographical data and visualize RSSI embedded on Buoys drifting in the Gulf of Trieste;
+* **Step 4 [Optional]**: Execute, modify and expand this [notebook](./hands-on-sessions/notebooks/3-mapping-buoys.ipynb) to learn how to map geographical data and visualize RSSI embedded on Buoys drifting in the Gulf of Trieste.
 You will need to install specific version of packages hosted in a different channel. To do so, simply run:
 ```
 conda install -c conda-forge folium=0.5
