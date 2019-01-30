@@ -55,6 +55,12 @@ As regards, afternoon's hands-on session, the following learning track is propos
 * **Step 2 [Optional]**: In case you need a Python primer for Data Science, you will find one [here](./hands-on-sessions/notebooks/0-python-language-essentials-for-data-science.ipynb);
 * **Step 3**: Execute, modify and expand this [notebook](./hands-on-sessions/notebooks/2-time-series-visualization-python.ipynb) on Time Series Visualization;
 * **Step 4 [Optional]**: Execute, modify and expand this [notebook](./hands-on-sessions/notebooks/3-mapping-buoys.ipynb) to learn how to map geographical data and visualize RSSI embedded on Buoys drifting in the Gulf of Trieste;
+You will need to install specific version of packages hosted in a different channel. To do so, simply run:
+```
+conda install -c conda-forge folium=0.5
+conda install -c conda-forge palettable
+```
+
 * **Step 5**: Fetch time series data of your nodes through the MQTT channel, visualize them and set up a quick & dirty anomaly detection system.
 * **Step 6**: Report your findings (by group), lessons learnt.
 
